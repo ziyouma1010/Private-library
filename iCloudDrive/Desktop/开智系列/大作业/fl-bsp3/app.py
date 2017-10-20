@@ -112,5 +112,5 @@ def listbook():
     return render_template('listbook.html')
 
 if __name__ == "__main__":
-    #manager.run() #manager.run()代替了app.run()，启动后就能解析命令行啦
+    #manager.run() #manager.run()代替了app.run()，启动后就能解析命令行啦，可以继续
     app.run(debug = True)
